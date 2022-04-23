@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: pink;
+  padding: 0 16px;
+}
+
+header {
+  background-color: green;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  color: white;
+  font-size: 30px;
+}
+
+header p {
+  color: yellowgreen;
+  font-size: 25px;
+}
+
+.header-clock {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  margin: 1%;
+}
+
+.header-image-div {
+  text-align: center;
+}
+
+.header-image {
+  height: 100px;
+  border-radius: 100%;
+  margin: 1%;
+}
+
+.note {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 100%;
+  margin: 16px;
+  text-align: center;
+}
+
+.note h2 {
+  font-size: 2em;
+  margin-bottom: 6px;
+  text-align: center;
+}
+
+.note p {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  text-align: center;
+}
+
+.circle-img {
+  border-radius: 50%;
+  border: 5px solid blue;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+}
+
+button {
+  font-size: 1.2em;
+  position: relative;
+  bottom: 0px;
+  background: green;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
