@@ -32,6 +32,13 @@ header h2 {
   padding: 10px;
 }
 
+header h3 {
+  color: yellowgreen;
+  text-decoration: underline;
+  font-size: 20px;
+  padding: 10px;
+}
+
 header p {
   color: yellowgreen;
   font-size: 20px;
